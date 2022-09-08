@@ -1,0 +1,102 @@
+.applogin {
+      display: flex;
+      flex:1;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+      height: 90%;
+      
+}
+.MainLogin1 {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-left:8%;
+      padding-right:3%;
+      padding-top:1%;
+      border-top-right-radius: 30px;
+   
+}
+
+.lgo1 {
+      padding-left:24%;
+      border-radius: 80px;
+      padding-right: 24%;
+      height:120px;
+      width:120px;
+}
+.logintitle1 {
+      margin: auto;
+      padding-top: 20px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 27px;
+}
+.subhead1 {
+      font-size: 15px;
+      font-family: 'Open Sans', sans-serif;
+      color: gray;
+}
+.fieldhead {
+      font-size:16px;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      display: block;
+       margin-block-start: 10px;
+       margin-block-end: 4px;
+       margin-inline-start: 0px;
+       margin-inline-end: 0px;
+}
+
+
+.inpBox {
+      border-width: 0.5px;
+      font-family: 'Open Sans', sans-serif;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      padding-left: 10px;
+      width:250px;
+      border-radius: 7px;
+      border:0.5px solid #b5b3ba;
+      border-color: #b5b3ba;
+      color:blueviolet;
+      background-color: #E7EcF4;
+}
+input:not(:placeholder-shown) {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+}
+.pass:not(:placeholder-shown) {
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+.subBut {
+      background-color: #3a54aa;
+      font-family: 'Open Sans', sans-serif;
+      color:whitesmoke;
+      border-color:#3a54aa ;
+      width:265px;
+      border-radius: 7px;
+      padding-bottom: 7px;
+      padding-top: 7px;
+      /* font-size: 20px; */
+      font-weight: 500;
+
+}
+.refLink {
+      color:rgb(133, 132, 134);
+      padding-left: 10%;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+}
+.pBut {
+      font-weight: 700;
+      font-family: 'Open Sans', sans-serif;
+      font-size:13px;
+      border:none;
+      background-color: whitesmoke;
+      color:rgb(133, 132, 134);
+}

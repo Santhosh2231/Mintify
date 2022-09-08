@@ -1,0 +1,38 @@
+.jk {
+      padding-left: 55%;
+}
+.nab {
+      background-color: greenyellow;
+}
+.content {
+      background-image: url("../../assets/backgrnd-home.jpeg");
+}
+.giHomeMain {
+      display: flex;
+      flex-direction: row;
+      padding-left:10%;
+      background-color: rgb(159, 202, 215);
+      text-align:start;
+      padding-top: 5%;
+      padding-bottom: 5%;
+}
+.localheader {
+      padding-bottom: 2%;
+}
+.mainRows {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+}
+.cardsHome {
+      margin:10px;
+      width: 36rem;
+      box-shadow: 2px 5px #888888;
+}
+.Footer {
+      text-align: center;
+      font-size: medium;
+      font-weight: 600;
+      color:white;
+      background-color: rgb(130, 200, 146);
+}

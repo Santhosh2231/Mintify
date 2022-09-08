@@ -1,0 +1,38 @@
+.Main1 {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+
+}
+.Div11 {
+
+      margin-left:10%;
+      margin-top: 6%;
+
+      
+      /* background-color: whitesmoke; */
+}
+.fint {
+      height: 500px;
+      width:662px
+}
+.lgo0 {
+      padding-left:24%;
+      border-radius: 80px;
+      height:120px;
+      width:120px;
+}
+.Div21 {
+      margin-left:6%;
+      margin-top: 1%;
+      justify-content: center;
+      align-items: center;
+      padding-top: 1%;
+      /* width:35%; */
+}
+@media only screen and (max-width: 720px) {
+      .Div11{
+            display: none;
+      }
+
+}

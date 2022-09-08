@@ -1,0 +1,22 @@
+.Main {
+      display: flex;
+      flex-direction: row;
+}
+.Div1 {
+      margin-left:15%;
+      margin-top: 3%;
+     
+      padding-top: 3%;
+      padding-bottom: 3%;
+}
+.Div2 {
+      margin-left: 5%;
+      margin-top: 3%;
+     
+      padding-top: 3%;
+      padding-bottom: 3%;
+}
+.img1 {
+      height: 600px;
+      width: 662px;
+}
