@@ -7,11 +7,12 @@ export const sendOTP = async(req,res,next)=>{
     const client1 = client(process.env.ACCOUNTSID, process.env.AUTHTOKEN);
     const otp = req.body.otp;
     const receiver = "+91"+req.body.mobile;
+    console.log(receiver)
     // '+917995855464'
     client1.messages
     .create({
         body: 'Dear Customer Your Otp for consent of Account Aggregator is '+ otp+'. The OTP is valid for 5 minutes only. Thanks, Team Mintify',
-        from: '+19855896268',
+        from: '+18155545920',
         to: receiver
     })
     .then(message => {console.log(message.sid)
